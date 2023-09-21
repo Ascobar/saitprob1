@@ -1,0 +1,100 @@
+html, body, header{
+    padding: 0;
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+    background: #f0f0f0;
+}
+
+
+header, footer{
+    width: 100%;
+    height: 15vh;
+    background: #333;
+}
+
+.div-header:not(:first-of-type){
+    margin-left: 5%;
+    border: 1px solid #90a6ee;
+    text-align: center;
+    border-radius: 5vh;
+    padding: 0 1vh 0 1vh;
+    opacity: 0.8;
+    background-color: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+
+
+#my-photo-img{
+    border-radius: 50%;
+    height: 12vh;
+    width: 12vh;
+}
+
+#greeting p, #my-name p{
+    color: #ce5e5e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.div-footer:not(:first-of-type){
+    margin-left: 5vh;
+}
+
+.div-footer{
+    border: 2px solid #90a6ee;
+    border-radius: 5vh;
+    padding: 0 2vh 0 2vh;
+}
+
+.div-footer a{
+    color: #ce5e5e;
+    ;
+}
